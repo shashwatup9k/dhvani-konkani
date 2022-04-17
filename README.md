@@ -1,1 +1,1 @@
-# Konkani
+# Konkani [Oral and Nasal vowels]
