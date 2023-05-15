@@ -46,10 +46,21 @@ We would like to acknowledge the support of the [Science Foundation Ireland (SFI
 
 ## References
 <pre>
-@inproceedings{
+@inproceedings{fadte-et-al-2023-empirical,
+  title={Empirical {A}nalysis of {O}ral and {N}asal {V}owels of {K}onkani},
+  author={Fadte, Swapnil and Vaz, Edna and Ojha, Atul Kr. and Karmali, Ramdas and Pawar, Jyoti D.},
+  booktitle={the proceedings of 10th language \& technology conference: human language technologies as a challenge for computer science and linguistics},
+  month = april,
+  year={2023}
+  address = "Poznan, Poland",
+  publisher = "",
+  url = "https://aclanthology.org/2021.mtsummit-LoResMT.11",
+  pages = "",
+
 }
 
 </pre>
+
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) =====================================================
 Data available since: dhvani-konkani
