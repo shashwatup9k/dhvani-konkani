@@ -54,7 +54,7 @@ We would like to acknowledge the support of the [Science Foundation Ireland (SFI
   year={2023}
   address = "Poznan, Poland",
   publisher = "",
-  url = "https://aclanthology.org/2021.mtsummit-LoResMT.11",
+  url = "",
   pages = "",
 }
 </pre>
