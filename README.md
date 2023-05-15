@@ -1,7 +1,6 @@
 # Introduction
 Konkani is a highly nasalised language which makes it unique among Indo-Aryan languages. This work investigates the acoustic-phonetic properties of Konkani oral and nasal vowels. For this study, speech samples from six speakers (3 male and 3 female) were collected. A total of 74 unique sentences were used as a part of the recording script, 37 each for oral and nasal vowels, respectively. The final data set consisted of 1135 vowel phonemes. A comparative F1-F2 plot of Konkani oral and nasal vowels is presented with an experimental result and formant analysis. The average F1, F2 and F3 values are also reported for the first time through experimentation for all nasal and oral vowels. This study can be helpful for the linguistic research on vowels and speech synthesis systems specific to the Konkani language.
 
-
 ## Structure of the `dhvani-konkani data`:
 ```
 dhvani-konkani/
@@ -38,7 +37,7 @@ dhvani-konkani/
 │  ├─ NasalVowelsFinal.R
 ├─ LICENSE.md
 ├─ README.md
-
+```
 # License
 Please see the [LICENSE](https://github.com/shashwatup9k/dhvani-konkani/blob/main/LICENSE) file.
 
