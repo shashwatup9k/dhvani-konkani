@@ -1,6 +1,6 @@
 library(phonR)
 #Setting folder path to store results
-folder_path <- "/home/dcst/Desktop/Konkani Acoustic Analysis/Expt 2 (Oral and nasal vowels)/formant analysis/results/figures/"
+folder_path <- "$/home/figures/"
 
 par(mfrow = c(1, 1))
 #dislpay formant data
