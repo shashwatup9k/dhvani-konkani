@@ -49,21 +49,17 @@ We would like to acknowledge the support of the [Science Foundation Ireland (SFI
 @inproceedings{fadte-et-al-2023-empirical,
   title={Empirical {A}nalysis of {O}ral and {N}asal {V}owels of {K}onkani},
   author={Fadte, Swapnil and Vaz, Edna and Ojha, Atul Kr. and Karmali, Ramdas and Pawar, Jyoti D.},
-  booktitle={the proceedings of 10th language \& technology conference: human language technologies as a challenge for computer science and linguistics},
-  month = april,
+  booktitle={Proceedings of the Human Language Technologies as a Challenge for Computer Science and Linguistics - 2023},
   year={2023}
   address = "Poznan, Poland",
-  publisher = "",
   url = "",
-  pages = "",
+  pages = "62-67",
 }
 </pre>
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) =====================================================
-Data available since: dhvani-konkani
-License: CC BY-NC-SA 4.0
-=======
+Data available since: April, 2023
 Includes text/video: yes
 Contact: atulkumar.ojha@insight-centre.org, swapnil.fadte@unigoa.ac.in
 Contributor/&copy;holder: Discipline of Computer Science & Technology, Goa Business School, Goa University, Insight SFI Research Centre for Data Analytics, Data Science Institute, University of Galway, Govt. College of Arts Science and Commerce Quepem, Goa
