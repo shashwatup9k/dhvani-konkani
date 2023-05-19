@@ -46,14 +46,13 @@ We would like to acknowledge the support of the [Science Foundation Ireland (SFI
 
 ## References
 <pre>
-@inproceedings{fadte-et-al-2023-empirical,
-  title={Empirical {A}nalysis of {O}ral and {N}asal {V}owels of {K}onkani},
-  author={Fadte, Swapnil and Vaz, Edna and Ojha, Atul Kr. and Karmali, Ramdas and Pawar, Jyoti D.},
-  booktitle={Proceedings of the Human Language Technologies as a Challenge for Computer Science and Linguistics - 2023},
-  year={2023}
-  address = "Poznan, Poland",
-  url = "",
-  pages = "62-67",
+@misc{fadte2023empirical,
+      title={Empirical Analysis of Oral and Nasal Vowels of Konkani}, 
+      author={Swapnil Fadte and Edna Vaz and Atul Kr. Ojha and Ramdas Karmali and Jyoti D. Pawar},
+      year={2023},
+      eprint={2305.10122},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 </pre>
 
