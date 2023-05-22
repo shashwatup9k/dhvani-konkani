@@ -1,8 +1,14 @@
+#Author: Swapnil Fadte
+#swapnil.fadte@unigoa.ac.in
+#last modified 23/05/2023
+
 library(phonR)
 #Setting folder path to store results
 folder_path <- "$/home/figures/"
 
 par(mfrow = c(1, 1))
+#import foramt data to R-Studio this can be done manually
+
 #dislpay formant data
 print(formant_data)
 # Vowel space of Gender for Konkani
@@ -231,46 +237,4 @@ dev.off()
 with(formant_data, plotVowels(f1, f2-f1, vowel, group = vowel, plot.tokens = FALSE, plot.means = TRUE, 
                               pch.means = vowel, cex.means = 2, var.col.by = vowel, ellipse.fill = TRUE, pretty = TRUE,xlim = c(3900, 100), 
                               ylim = c(1200, 200),legend.kwd = "bottomright"))
-
-#Grayscale speaker plotiing
-#opening a file
-jpeg(paste(folder_path,"GrayScale_Speaker_ploting", sep=""), 
-     width = 450, 
-     height = 350)
-
-with(formant_data, plotVowels(f1, f2, vowel, group = subj,
-                              var.col.by = subj, 
-                              var.sty.by = subj, 
-                      plot.tokens = FALSE, 
-                      plot.means = TRUE, 
-                      pch.means = vowel, cex.means = 2, 
-                      pretty = TRUE, 
-                      poly.line = TRUE,
-                      poly.order = c("i", "e", "a", "o", "u"),
-                      legend.kwd = "bottomleft", 
-                      legend.args = list(seg.len = 3, cex = 1.2, lwd = 2), col = c("gray70", "gray40", 
-                                                                                   "gray10"), lty = c("solid", "solid", "dotdash", "dotdash", "dotted", "longdash", 
-                                                                                               "dashed", "dotted")))
-
-#Closing the file
-dev.off()
-
-
-#devnagari mapping
-# unicode escapes are necessary for this example to work on Windows
-# Open jpeg file
-jpeg(paste(folder_path,"/devnagari.jpg", sep=""),
-     width = 500,
-     height = 500)
-#devnagari mapping
-# unicode escapes are necessary for this example to work on Windows
-remapping <-c(i="इ", e="ए", ɛ="अॅ", a="आ", u="उ", o="ओ",ɔ="ऑ", ɨ="अ॑",ə="अ",ɵ="अअ")
-formant_data$unicodevowel <- remapping[as.character(formant_data$vowel)]
-with(formant_data, plotVowels(f1, f2, unicodevowel, plot.tokens = TRUE, pch.tokens = vowel, 
-                      cex.tokens = 1.2, alpha.tokens = 0.4, plot.means = TRUE, pch.means = unicodevowel, 
-                      cex.means = 2.5, var.col.by = unicodevowel, family = "Charis SIL", pretty = TRUE))
-#Closing the file
-dev.off()
-
-data1 <-c("ɛ","i","o","ɨ")
 
